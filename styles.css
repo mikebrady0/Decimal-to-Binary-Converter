@@ -1,0 +1,82 @@
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #800080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #add8e6;
+}
+
+.input-container {
+    margin-top: 20px;
+    background-color: #add8e6; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.number-input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #800080; 
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.convert-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color:#800080; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.convert-btn:hover {
+    background-color: #4b0049; 
+}
+
+#result {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; 
+}
+
+#animation-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .input-container {
+        max-width: 90%;
+    }
+}
